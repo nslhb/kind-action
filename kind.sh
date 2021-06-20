@@ -53,7 +53,7 @@ main() {
     fi
 
     local arch
-    arch=$(uname -m)
+    arch=$(dpkg --print-architecture)
     local cache_dir="$RUNNER_TOOL_CACHE/kind/$version/$arch"
 
     local kind_dir="$cache_dir/kind/bin/"
