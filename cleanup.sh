@@ -18,7 +18,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-DEFAULT_CLUSTER_NAME=chart-testing
+DEFAULT_CLUSTER_NAME=testing
 
 main() {
     args=()
